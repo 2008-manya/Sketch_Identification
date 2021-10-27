@@ -1,0 +1,57 @@
+
+
+body{
+    background-position: center;
+    background-size: cover;
+    font-family: 'Patrick Hand', cursive;
+}
+
+
+.btn-info{
+    font-size: 30px;
+    width: 50%;
+    border: 5px ridge coral;
+    border-radius: 10px;
+}
+
+.btn-danger{
+    float: right;
+    border: 5px ridge blue;
+    border-radius: 10px;
+}
+
+.btn-primary{
+    border: 5px ridge purple;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+canvas{
+    animation-name: canvas;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    border: 3px solid navy;
+}
+@keyframes canvas{
+    from {
+        box-shadow: 10px 10px 10px purple;
+    }
+
+    to{
+        box-shadow: 10px 10px 10px green;
+    }
+}
+
+.btn-success{
+    border: 5px ridge rgb(0, 124, 128);
+    border-radius: 10px;
+}
+
+#footer{
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    background-color: hotpink;
+}
+
